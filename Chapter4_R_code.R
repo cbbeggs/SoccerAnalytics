@@ -214,6 +214,7 @@ HomeGoals <- PiT_dat$FTHG
 AwayGoals <- PiT_dat$FTAG
 
 # Create user-defined functions 
+# Code adapted from http://opisthokonta.net/?p=18
 
 # Function 1. (This creates a vector of match outcomes.)
 outcome <- function(hGoals, aGoals){

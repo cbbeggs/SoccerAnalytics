@@ -152,7 +152,9 @@ AIC(s1.lm6)
 
 # Code for Example 10.4
 
-# relweights function
+# relweights function 
+# (Source: Kabacoff RI: R in action: data analysis and graphics with R:
+# Simon and Schuster; 2015.)
 relweights <- function(fit,...){
   R <- cor(fit$model)
   nvar <- ncol(R)
