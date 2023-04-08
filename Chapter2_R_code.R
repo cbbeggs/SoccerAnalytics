@@ -62,7 +62,7 @@ str(goals_dat) # Displays the structure of the data.
 
 
 # Method 1: Specifying the variable name using the ‘$’ symbol.
-goals_dat$GoalsFor  # Here, $ denotes that ‘GoalsFor’ is a variable belonging to ‘goals-dat’.
+goals_dat$GoalsFor  # Here, $ denotes that ‘GoalsFor’ is a variable belonging to ‘goals_dat’.
 
 # Method 2: Specifying the variable position using square brackets.
 goals_dat[,2]  # Here, the square brackets are used to select the second column.
