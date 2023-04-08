@@ -83,6 +83,9 @@ mean(perf_dat$passes, na.rm = TRUE) # This now works.
 mean(perf_dat$tackles, na.rm = TRUE) # This now works.
 
 # Alternatively, use the 'describeBy' function in the “psych” package.
+# install.packages("psych")  # This installs the ‘psych’ package. 
+# NB. This command only needs to be executed once to install the package.
+# Thereafter, the ‘psych’ library can be called using the command.
 library(psych)
 describeBy(perf_dat[,c(2:5)])
 

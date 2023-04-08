@@ -67,7 +67,7 @@ goals_dat$GoalsFor  # Here, $ denotes that ‘GoalsFor’ is a variable belongin
 # Method 2: Specifying the variable position using square brackets.
 goals_dat[,2]  # Here, the square brackets are used to select the second column.
 
-# We use [,c(2,3)] to display both second and third columns in ‘goals-dat’.
+# We use [,c(2,3)] to display both second and third columns in ‘goals_dat’.
 goals_dat[,c(2,3)]  # This selects the second and third variables in ‘goals_dat’. 
 
 # We can use [c(3,4,5),] to select rows 3,4 and 5 as follows:
