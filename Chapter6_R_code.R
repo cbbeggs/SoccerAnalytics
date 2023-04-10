@@ -150,6 +150,7 @@ sum(prob.mat[upper.tri(prob.mat)]) # Sum of upper triangle is the probability of
 #####
 
 # Code for Example 6.3
+# (NB. Code adapted from Opisthokonta.net; https://opisthokonta.net/?p=1685)
 
 # Fit model
 expected <- fitted(pois.mod)
